@@ -9,9 +9,9 @@ Stop_Detection/
 
 │ └── Stop_detection.ipynb
 
-├── data/ # Dataset used for training and validation
+├── not_stop/ # Dataset used for training and validation
 
-├── images/ # Sample results and visualizations
+├── stop/ # Dataset used for training and validation
 
 └── README.md
 
@@ -58,7 +58,16 @@ Stop_Detection/
    git clone https://github.com/LordAmadeus1/Stop_Detection.git
    cd Stop_Detection
 
-2. **Run the notebook**:
-   jupyter notebook notebooks/Stop_detection.ipynb
+2. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. **Open the notebook:**
+
+   Launch Stop_detection.ipynb in Google Colab or a local Jupyter environment.
+
+    Run each cell sequentially to process the video frames and detect stop signs.
+
 
 This project is licensed under the MIT License
