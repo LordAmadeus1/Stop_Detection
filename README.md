@@ -36,19 +36,16 @@ Stop_Detection/
   - Confusion Matrix
 
  ## Results
+ 
+ ![Captura de pantalla 2024-08-15 174344](https://github.com/user-attachments/assets/1c7ab027-c87b-4937-ab66-b19e2e084bdb)
+
 
 - **Validation Accuracy**: 85%
 - **Observations**:
   - The model generalizes well to unseen STOP sign images.
   - Some confusion with similar-shaped signs suggests possible improvements via data augmentation or deeper architectures.
 
-## 🖼️ Visualizations
 
-![Confusion Matrix](images/confusion_matrix.png)  
-*Figure 1: Confusion matrix on validation set.*
-
-![Loss Curve](images/loss_curve.png)  
-*Figure 2: Loss evolution during training.*
 
 ## 🚀 How to Run
 
