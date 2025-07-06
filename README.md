@@ -13,6 +13,8 @@ Stop_Detection/
 
 ├── stop/ # Dataset used for training and validation
 
+├── requirements.txt
+
 └── README.md
 
 ## Model Architecture
